@@ -1,0 +1,250 @@
+*{box-sizing:border-box;}
+
+h1{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+
+body{
+    background-color: #B5EEFE;
+}
+
+form{
+	width:350px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color:#4E92B4;
+	font-family: cursive;
+	margin-bottom: 20px;
+}
+
+form fieldset{
+    border-radius:10px;
+    border: 1.3px solid white;
+}
+
+form legend{
+	font-weight:bold;
+    display:inline-block;
+    color: white;
+}
+
+form input[type="number"]{
+	width:280px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="button"]{
+    font-family: cursive;
+	width:100%;
+	padding:8px 16px;
+	margin-top:20px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="button"]:hover{
+	cursor:pointer;
+}
+
+table{
+	background-color: #B5EEFE;
+	border-collapse: collapse;
+	margin: auto;
+	border: none;
+	margin-top:20px;
+}
+
+tbody{
+	border:none;
+}
+
+td, th{
+	padding: 0;
+	margin: 0;
+	width: 44px;
+	height: 46px;
+	border:none;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+.boton{
+	width: 100%;
+	background-color: #4CAF50;
+	border-radius: 4px;
+	color: white;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	width: 44px;
+	height: 46px;
+}
+
+.boton:hover{
+	background-color: #8DE78A;
+}
+
+
+
+div.container img{
+	width:80%;
+}
+
+div.container{
+	margin-top: 0;
+	margin-bottom: 0;
+	display:inline-block;
+	text-align: center;
+	padding: 5px;
+}
+
+div.container#div3{
+	padding-right:0;
+}
+
+div.container#div4{
+	padding-left: 0;
+	padding-right:0;
+}
+
+div.container#div5{
+	padding-left: 0;
+}
+
+.imagenes{
+	width: 100%;
+}
+
+.confeti{
+	width: 100%;
+}
+
+.normalImage{
+	width: 25%;
+	display: block;
+	margin: auto;
+}
+
+.pinaculo{
+	width: 50%;
+	display:block;
+	margin: auto;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	-webkit-animation-name: fadeIn; /* Fade in the background */
+	-webkit-animation-duration: 0.4s;
+	animation-name: fadeIn;
+	animation-duration: 0.4s
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: fixed;
+	bottom: 0;
+	background-color: #fefefe;
+	width: 100%;
+	-webkit-animation-name: slideIn;
+	-webkit-animation-duration: 0.4s;
+	animation-name: slideIn;
+	animation-duration: 0.4s
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .modal-header {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+	padding: 2px 16px;
+	background-color: #5cb85c;
+	color: white;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes slideIn {
+	from {bottom: -300px; opacity: 0} 
+	to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+	from {bottom: -300px; opacity: 0}
+	to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	from {opacity: 0} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+	from {opacity: 0} 
+	to {opacity: 1}
+  }
+
+.supercrono{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+  
+.cajacrono{
+	display:block;
+	margin:auto;
+}
+
+.cajitacrono{
+	display:inline-block;
+	width: 50px;
+	height: 50px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/icono.svg">
+</head>
+<body>
+    <div>
+        <h1>BUSCAMINAS</h1>
+    </div>
+    <div>
+        <form class="formulario">
+            <fieldset>
+                <legend class="leyenda">Introdusca los siguientes datos:</legend>
+                <input class="col texto" id="col" type="number" min="10" max="30" placeholder="Introduzca un valor entre 10-30 columnas."><br>
+                <input class="row texto" id="row" type="number" min="10" max="30" placeholder="Introduzca un valor entre 10-30 filas."><br>
+                <fieldset>
+                    <legend>Escoja una dificultad</legend>
+                    <input type="radio" name="dificultad" value="easy">Fácil.<br>
+                    <input type="radio" name="dificultad" value="medium">Intermedio.<br>
+                    <input type="radio" name="dificultad" value="hard">Difícil.<br>
+                    <input type="radio" name="dificultad" value="neutron">Estilo Neutron.
+                </fieldset>
+                <input class="button" id="boton" type="button" value="A darle!">
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2 id = "head"></h2>
+          </div>
+          <div id="body" class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <h3 id="foot"></h3>
+          </div>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+    <script src="modals.js"></script>
+    <script src="cronometro.js"></script>
+    <script src="probe.js"></script>
+</body>
+</html>
